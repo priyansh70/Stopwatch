@@ -67,3 +67,32 @@ body{
 #reset:hover {
     background-color: rgb(207, 10, 10);
 }
+
+/* Media Queiries */
+@media screen and (max-width : 700px) {
+    .time {
+        font-size: 60px;
+        color: #ffffff;
+    }
+
+    .text {
+        font-size: 20px;
+        color: #fffcd6;
+    }
+
+    .buttons {
+        width: 90%;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .btn {
+        font-size: 18px;
+        margin: 7px 10px;
+        width: 75%;
+    }
+
+    .time-container {
+        margin-top: -50px;
+    }
+}
